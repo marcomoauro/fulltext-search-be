@@ -1,6 +1,6 @@
 # Full text search backend
 
-Backend template for Node.js.
+Node.js backend communicating with an Elasticsearch index via REST Api.
 
 ## Requirements
 
@@ -14,11 +14,11 @@ yarn install
 
 ## How to use
 
-- Create the .env file based on the env-template, the only env to configure is DATABASE_URL, leave it empty for now, you can configure it later.
+- Create the .env file based on the env-template file.
 - Starts the server by executing:
 ```sh
 yarn serve:development
 ```
 
 ## References
-I talk about this project in this episode of my tech newsletter: https://implementing.substack.com/p/6-technologies-you-should-know-as
+I talk about this project in this episode of my tech newsletter: https://implementing.substack.com/p/how-to-create-a-search-engine-with-elasticsearch
